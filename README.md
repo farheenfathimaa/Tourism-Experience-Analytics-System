@@ -79,3 +79,46 @@ After running, a browser window will automatically open at `http://localhost:850
 - **🔮 Visit Mode Predictor**: Interactively enter continent, country, timing, and category to classify travel mode classes (Couples, Solo, Business, etc.) alongside confidence distribution plots.
 - **⭐️ Rating Predictor**: Input traveler details to forecast an expected attraction rating, displayed as a visual star rating (e.g. ⭐⭐⭐⭐½).
 - **🗺️ Attraction Recommender**: Get personalized collaborative recommendations for active User IDs (e.g., `70456`, `7567`, `14`), or find top 5 similar attractions for any selected attraction out of 1,698 options.
+
+---
+
+## 🖥️ Streamlit App Preview
+
+Below are screenshots of the interactive pages and features within the Tourism Experience Analytics Streamlit application:
+
+### 1. Executive Analytics Dashboard & EDA
+Displays key high-level dataset metrics (Total Transactions, Unique Active Users, Available Attractions, and Overall Average Rating) along with a grid of 8 detailed data visualization plots.
+
+<p align="center">
+  <img src="screenshots/1.png" width="48%" alt="Executive Dashboard Overview" />
+  <img src="screenshots/2.png" width="48%" alt="Dataset Exploration & Chart Gallery" />
+</p>
+
+<p align="center">
+  <img src="screenshots/3.png" width="48%" alt="Exploratory Charts Gallery Row 2" />
+  <img src="screenshots/4.png" width="48%" alt="Exploratory Charts Gallery Row 3" />
+</p>
+
+### 2. Traveling Visit Mode Predictor
+Classifies user traveling type (Business, Couples, Family, Friends, Solo) based on user demographics, visit timing, and target attraction type, showcasing a probability confidence distribution bar chart.
+
+<p align="center">
+  <img src="screenshots/5.png" width="48%" alt="Visit Mode Predictor Form" />
+  <img src="screenshots/6.png" width="48%" alt="Visit Mode Prediction Results" />
+</p>
+
+### 3. Attraction Rating Predictor
+Estimates the user satisfaction rating (scale of 1.0 to 5.0) that a tourist is expected to give to a destination, outputting the result with a dynamic star-rating layout.
+
+<p align="center">
+  <img src="screenshots/7.png" width="48%" alt="Rating Predictor Form" />
+  <img src="screenshots/8.png" width="48%" alt="Rating Prediction Results" />
+</p>
+
+### 4. Tourism Recommendation Engine
+Generates User-User Collaborative recommendations for a specific User ID (e.g., `70456`), or filters similar attractions based on location and category profile using Content-Based similarity.
+
+<p align="center">
+  <img src="screenshots/9.png" width="48%" alt="Collaborative Filtering Recommender" />
+  <img src="screenshots/10.png" width="48%" alt="Content-Based Similarity Recommender" />
+</p>
