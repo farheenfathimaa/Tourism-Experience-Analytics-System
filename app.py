@@ -100,6 +100,13 @@ def local_css():
         margin-top: 1.5rem;
         box-shadow: inset 0 2px 4px rgba(0,0,0,0.02);
     }
+    .prediction-container h3 {
+        color: #212529 !important;
+        font-weight: 600;
+    }
+    .prediction-container p {
+        color: #495057 !important;
+    }
     .prediction-value {
         font-size: 2.2rem;
         font-weight: 800;
